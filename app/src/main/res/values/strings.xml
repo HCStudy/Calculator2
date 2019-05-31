@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="night_mode">Dark Theme</string>
+    <string name="day_mode">Light Theme</string>
+</resources>

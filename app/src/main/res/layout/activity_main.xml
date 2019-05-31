@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button1"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:layout_below="@id/editText2"
+        android:text="1"
+        style="@style/NumberButtons" />
+
+    <Button
+        android:id="@+id/button2"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:layout_below="@id/editText2"
+        android:layout_toRightOf="@id/button1"
+        android:text="2"
+        style="@style/NumberButtons" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_below="@id/editText2"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:layout_toRightOf="@id/button2"
+        android:text="3"
+        style="@style/NumberButtons" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_below="@id/editText2"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:layout_toRightOf="@id/button3"
+        android:text="+"
+        style="@style/OperatorButtons" />
+
+
+
+
+
+    <Button
+        android:id="@+id/button4"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:text="4"
+        android:layout_below="@id/button1"
+        style="@style/NumberButtons" />
+    <Button
+        android:id="@+id/button5"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:text="5"
+        android:layout_below="@id/button1"
+        android:layout_toRightOf="@id/button4"
+        style="@style/NumberButtons" />
+    <Button
+        android:id="@+id/button6"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:layout_below="@id/button1"
+        android:layout_toRightOf="@id/button5"
+        android:text="6"
+        style="@style/NumberButtons" />
+    <Button
+        android:id="@+id/button12"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:text="-"
+        android:layout_below="@id/button1"
+        android:layout_toRightOf="@id/button6"
+        style="@style/OperatorButtons" />
+
+
+
+
+
+    <Button
+        android:id="@+id/button7"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:text="7"
+        android:layout_below="@id/button4"
+        style="@style/NumberButtons" />
+    <Button
+        android:id="@+id/button8"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:text="8"
+        android:layout_below="@id/button4"
+        android:layout_toRightOf="@id/button7"
+        style="@style/NumberButtons" />
+    <Button
+        android:id="@+id/button9"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:text="9"
+        android:layout_below="@id/button4"
+        android:layout_toRightOf="@id/button8"
+        style="@style/NumberButtons" />
+    <Button
+        android:id="@+id/button13"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:text="*"
+        android:layout_below="@id/button4"
+        android:layout_toRightOf="@id/button9"
+        style="@style/OperatorButtons" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button0"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="0"
+        android:layout_below="@id/button7"
+        style="@style/NumberButtons" />
+    <Button
+        android:id="@+id/button10"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="."
+        android:layout_below="@id/button7"
+        android:layout_toRightOf="@id/button0"
+        style="@style/NumberButtons" />
+
+    <Button
+        android:id="@+id/button20"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="="
+        android:layout_below="@id/button7"
+        android:layout_toRightOf="@id/button10"
+        style="@style/NumberButtons" />
+    <Button
+        android:id="@+id/button14"
+        app:layout_widthPercent="24%"
+        app:layout_marginLeftPercent="0.5%"
+        app:layout_marginRightPercent="0.5%"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:layout_below="@id/button7"
+        android:layout_toRightOf="@id/button20"
+        style="@style/OperatorButtons" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:inputType="number"
+        android:paddingTop="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"/>
+
+
+
+
+</android.support.percent.PercentRelativeLayout>
